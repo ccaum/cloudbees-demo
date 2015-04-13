@@ -27,6 +27,7 @@ read -r -d '' PE_MASTER_POST << MASTER_JSON
     "puppet_enterprise::profile::master": { },
     "puppet_enterprise::profile::master::mcollective": {},
     "puppet_enterprise::profile::mcollective::peadmin": {},
+    "profile::pe_master": {},
     "role::master": {}
   },
   "environment": "production",
